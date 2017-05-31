@@ -31,7 +31,7 @@ foreach ($rss->entry as $entry)
 //----------------------------//
 // ATTEMPT TO CONNECT         //
 //----------------------------//
-$connection = new TwitterOAuth("3fcjTJso7pS5iJfS9YPnV7wVh", "VvyFeJEiarAS6vJuqDWTej27gErte1QrDEkKi0JZFATyHYjPyR", "2527411616-Ir1hp9KYVmdiMRCkFXZQvwFH69a2KYa4zZKUgPi", "7GKBppxAFpocV2fdlvIfRUYpEaV3sR86u2u7nofYtfKrT");
+$connection = new TwitterOAuth("", "", "", "");
 $content = $connection->get("account/verify_credentials");
 
 if (!lastCallSuccessful($connection))
