@@ -1,4 +1,4 @@
-## Rising Post Tweeter
+## Rising Posts Tweeter
 
 This PHP application looks through /r/Gunners/rising/ every 15-30 minutes and tweets any new posts on the [@GunnersReddit](https://twitter.com/GunnersReddit) Twitter account. **It can easily be modified to scrape /hot/, /new/, /controversial/, etc.**
 
